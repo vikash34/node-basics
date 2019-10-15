@@ -9,3 +9,8 @@ First install node.js after that you have to follow these steps
 2.npm install                                             (open the terminal or command prompt and run the command)
 3.npm start                                               (run this command for start the app)
 4.http://localhost:3000/                                  (open this ink in th browser)
+
+
+Follow the link below : To view how the app loks like
+
+https://node-basic-app.herokuapp.com/
