@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const expresshandle = require('express-handlebars');
 const app = express();
+const port =process.env.PORT || 3000;
 
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
@@ -31,4 +32,4 @@ app.use((req, res, next) => {
     res.status(404).render('404',{pagetitle:'page not found'});
 });
 
-app.listen(3000);
+app.listen(port);
